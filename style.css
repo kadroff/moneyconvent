@@ -4,8 +4,14 @@
 }
 
 body, html {
-    background-color: #F3F3F3;
+  background-color: #F3F3F3;
+  font-family: 'Open Sans', sans-serif;
+}
 
+.navbar {
+  height: 80px;
+  background-color: white;
+  border-bottom: 4px solid #FFD925;
 }
 
 .main {
@@ -32,3 +38,21 @@ body, html {
   font-size: 21px;
 }
 
+.navbar_nav {
+  color: #9d9d9d;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.navbar_nav li {
+  margin-left: 50px;
+  display: inline-block;
+  border: 1px #9d9d9d dashed;
+  border-bottom: none;
+  padding: 24px 30px;
+  cursor: pointer;
+}
+
+.navbar_nav li:hover {
+  background-color: #FFD925;
+}
